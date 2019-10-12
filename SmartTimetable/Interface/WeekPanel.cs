@@ -18,13 +18,13 @@ namespace SmartTimetable
             this.Visible = true;
             this.Location = new System.Drawing.Point(xPos, yPos);
             this.Name = "week";
-            this.Size = new System.Drawing.Size(900, 700);
+            this.Size = new System.Drawing.Size(891, 702);
             this.TabIndex = 5;
 
             //controls init
             for (int i = 0; i < 6; i++)
             {
-                this.days[i] = new DayPanel(2 + (i/3)*450, 2 + (i%3)*235, i);
+                this.days[i] = new DayPanel(3 + (i/3)*445, 3 + (i%3)*233, i);
                 this.Controls.Add(this.days[i]);
             }
 

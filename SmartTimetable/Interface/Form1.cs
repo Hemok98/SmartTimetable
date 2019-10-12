@@ -15,6 +15,7 @@ namespace SmartTimetable
         public Form1()
         {
             InitializeComponent();
+            InitializeNewsPanel();
         }
     }
 }
